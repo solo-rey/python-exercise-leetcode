@@ -1,3 +1,3 @@
 # python-exercise-leetcode
 
-Python exercise 
+My solutions for leetcode in python. 
