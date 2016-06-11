@@ -33,3 +33,21 @@ class Solution:
         if carry == 1:
             current.next = ListNode(1)
         return dummy.next
+
+
+def addTwoNumbers(l1, l2):
+    dummy = ListNode(0)
+    current, carry = dummy, 0
+    while l1 != None and l2 != None:
+        result = carry
+        if l1 != None:
+            result += l1.val
+        if l2 != None:
+            result += l2.val
+        carry, result = result / 10, result % 10
+        current.next = ListNode(result)
+        current = current.next
+    if carry > 0:
+        current.next = ListNode(carry)
+    return dummy.next
+
