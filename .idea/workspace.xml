@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a898082a-a186-44ac-be08-8f66d9c51948" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/add-two-numbers.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/longest-substring-without-repeating-characters.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two-sum.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serde_and_deserd_binary_tree.py" afterPath="$PROJECT_DIR$/serde_and_deserd_binary_tree.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/longest-palindromic-substring.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/median-of-two-sorted-arrays.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reverse-integer.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="python-exercise-leetcode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,8 +32,8 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="3_longest_substring_without_repeating_characters.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/3_longest_substring_without_repeating_characters.py">
+      <file leaf-file-name="7_reverse_integer.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/7_reverse_integer.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -58,6 +60,7 @@
         <option value="$PROJECT_DIR$/serde_and_deserd_binary_tree.py" />
         <option value="$PROJECT_DIR$/1_two_sum.py" />
         <option value="$PROJECT_DIR$/2_add_two_numbers.py" />
+        <option value="$PROJECT_DIR$/5_longest_palindromic_substring.py" />
       </list>
     </option>
   </component>
@@ -350,6 +353,10 @@
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" myUseAcceleration="nothing">
+    <configuration />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="a898082a-a186-44ac-be08-8f66d9c51948" name="Default" comment="" />
@@ -382,6 +389,14 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -424,6 +439,30 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/3_longest_substring_without_repeating_characters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="14" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4_median_of_two_sorted_arrays.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5_longest_palindromic_substring.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48424068">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="47" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7_reverse_integer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
