@@ -11,3 +11,14 @@ class Solution:
             end += 1
         return strs[0][:end]
 
+
+def longestCommonPrefix(strs):
+    if len(strs) <= 1:
+        return strs[0] if len(strs) == 1 else ""
+    end, min_len = 0 , min([len(s) for s in strs])
+    while end < min_len:
+        for i in range(1, len(strs)):
+            if strs[i][end] != strs[i-1][end]:
+                return strs[0][:end]
+        end+=1
+    return strs[0][:end]

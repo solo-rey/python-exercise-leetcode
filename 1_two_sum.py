@@ -42,5 +42,5 @@ def twoSum(nums, target):
     d = {}
     for i,e in enumerate(nums):
         if e in d:
-            return [d[e] , i +]
+            return [d[e] , i +1]
         d[target - e] = i
