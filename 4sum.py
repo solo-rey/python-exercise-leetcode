@@ -24,3 +24,5 @@ class Solution:
                             elif tmpsum>target:
                                 r-=1
         return res
+
+    
